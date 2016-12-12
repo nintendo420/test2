@@ -1,41 +1,93 @@
 <!doctype html>
-<html>
+<html> 
 <head>
 <meta charset="utf-8">
-<title>Heading Elements</title>
+<title>Baby Ballin!!</title> <!-- This is the title which displays on the tab/window! -->
 </head>
+<style>
+/* comment syntax & styles go in the section below */
+
+.s
+{
+font-size:25px;
+color:blue;
+}
+
+
+#main /*ID Selector*/
+{
+  text-align: center;
+  font-size:40px;
+  color: red;
+}
+
+h1 
+ {
+   color: blue;
+   font-size: 33px;
+   text-align: center;
+ }
+    
+header li
+{
+  list-style: none; /*To remove bullet points from unordered list*/
+}
+
+a:link, a:visited
+{
+  background-color: grey; /*To set link background to gr(a)y*/
+  font-size: 35px;
+  text-decoration: none; /*to remove underline from links*/
+  border: 2px solid pink;
+  color: black;
+  display block;
+  width: 200px;
+  text align: center;
+  margin-bottom: 2px;
+}
+
+a:hover, a:active
+{
+background-color: gold;
+color: brown;
+}
+
+</style>
+
 <body>
-  
- 
+
   <header>
-    header element - Some header information goes here. Usually consists of company logo, some tag line, etc. Sometimes, navigation is contained in the header as well.
-    <nav>nav (short for navigation) element - Usually contains links to different parts of the web site.</nav>
+    <div id = "main">This is a structure of a basic website, This section is for headers!</div>
+    <ul>
+
+    
+       <li> <a href="http://goo.gl/V0Wl6s" target="_blank"> AngularJS Course</a></li>
+      
+       <li><a href="http://www.facebook.com/" target="_blank"> Generic link to facebook!</a></li>
+
+   
+   </ul>
+   
+    <nav>(navigation section) - Usually contains links to different parts of the web site.
+
+    <a href="/">Home</a>
+
+    </nav>
   </header>
 
-  <style type="text/css">
-    
-h1 {
-   color: blue;
-   font-size: 36px;
-   text-align: center;
-   }
-    
-  </style>
-  
-
-  <h1>Small Beginnings </h1>
+   <h1>Small Beginnings </h1>
   <section>
-    Section 1
-    <article>Article 1:</article>
-    <article>Article 2:</article>
-    <article>Article 3:</article>
+    <div class = "s"> Section 1: </div>
+    <article> Article 1: </article>
+    <article> Article 2:</article>
+    <article> Article 3:</article>
   </section>
 
-<p>
-<img src="https://www.google.com/doodle4google/images/splashes/featured.png" width="1005" height="485">
-</p>
+ <p>
+ <img src="https://www.google.com/doodle4google/images/splashes/featured.png" width="1005" height="485">
+ </p>
 
-  <p>
+   <p>
       Here is a link to Google home page !
       <!-- link to Facebook page WITH TARGET-->
       <a href="http://www.google.com" 
@@ -43,7 +95,8 @@ h1 {
     </p>
 
   <section>
-    Section 2
+    <div class = "s"> Section 2: </div>
+    <br> <!-- <br> is used to enter a empty line -->
     <article>Article 4:</article>
     <article>Article 5:</article>
     <article>Article 6:</article>
@@ -53,9 +106,9 @@ h1 {
     ASIDE - Some information that relates to the main topic, i.e., related posts.
   </aside>
 
-<p>
-<img src="http://25.media.tumblr.com/tumblr_mb6trrGN7m1rb4jh1o1_500.png" width="500" height="677">
-</p>
+ <p>
+ <img src="http://25.media.tumblr.com/tumblr_mb6trrGN7m1rb4jh1o1_500.png" width="500" height="677">
+ </p>
 
   <footer>
     DS &copy; Copyright 2016
